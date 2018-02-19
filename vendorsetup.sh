@@ -1,1 +1,1 @@
-add_lunch_combo omni_T320-userdebug
+add_lunch_combo omni_T320-eng
