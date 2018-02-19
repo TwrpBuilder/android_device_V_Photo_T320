@@ -5,5 +5,5 @@
 /cache		ext4	/dev/block/bootdevice/by-name/cache
 /misc		emmc	/dev/block/bootdevice/by-name/misc
 /metadata   emmc    /dev/block/bootdevice/by-name/metadata
-/external_sd	vfat		/dev/block/platform/mtk-msdc.0/11240000.msdc1/mmcblk1p1	/dev/block/platform/mtk-msdc.0/11240000.msdc1/mmcblk1 flags=display="External SDcard";storage;wipeingui;removable;backup=0;encryptable=userdata
+/external_sd	auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1							flags=display="MicroSD";storage;wipeingui;removable;backup=0
 /usb-otg        vfat     	/dev/block/sda1 /dev/block/sda flags=display="USB OTG";storage;wipeingui;removable
